@@ -10,14 +10,16 @@ email: sava.virtosu@gmail.com
 Content
 ------------------------------------------------------
 
-### [Lab 4](https://github.com/TUM-FAF/IDE/blob/master/MIDPS_LAB_4.md)
+Lab 4
+=====
 Mobile application development (one of):
   - Eclipse (Java, Android)
   - NetBeans (Java, Android)
   - ItelijIdea (Java, Android)
   - XCode (Objective-C, iOS)
 
-### [Lab 5](https://github.com/TUM-FAF/IDE/blob/master/MIDPS_LAB_5.md)
+Lab 5
+=====
 Web development IDEs/text editors (one of):
   - Sublime Text 2
   - Rubymind
