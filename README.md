@@ -3,9 +3,9 @@ IDE Labs
 =========
 MIDPS - Medii Interactive de Dezvoltare a Produselor Soft
 
-Virtosu Sava
+Carp Ion TI 142
 
-email: sava.virtosu@gmail.com
+email: carp.ion95@gmail.com
 
 Content
 ------------------------------------------------------
