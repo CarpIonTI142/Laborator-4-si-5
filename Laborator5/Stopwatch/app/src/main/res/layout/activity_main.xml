@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      tools:context="exemplu.ion.stopwatch.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:background="#6aaf86">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00:000"
+            android:id="@+id/tv_time"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#d93605"
+            android:textSize="50dp"
+            android:textIsSelectable="false" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="#6aaf86">
+
+        <ScrollView
+            android:id="@+id/sv_laps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+
+            android:id="@+id/et_laps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#da3f11"
+            android:text=""
+            android:allowUndo="false" />
+
+
+    </ScrollView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:background="#6baf87">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="START"
+            android:id="@+id/btn_start"
+            android:layout_weight="1"
+            android:background="#e4dec4"
+            android:textColor="#b53f22"
+            android:textSize="25dp"
+            android:layout_gravity="bottom|top" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LAP"
+            android:id="@+id/btn_lap"
+            android:layout_weight="1"
+            android:background="#e4dec4"
+            android:textColor="#b53f22"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="STOP"
+            android:id="@+id/btn_stop"
+            android:layout_weight="1"
+            android:background="#e4dec4"
+            android:textColor="#b53f22"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>
